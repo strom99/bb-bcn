@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form input[type="text"],form input[type="number"]{
+    border: none;
+    border-bottom: 2px solid rgb(244, 118, 118);
+    padding: 10px;
+}
+
+form textarea{
+    border: 1px solid gainsboro;
+}
+.content{
+    max-width: 500px;
+    margin: auto;
+}

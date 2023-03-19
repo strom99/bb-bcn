@@ -1,0 +1,61 @@
+.libros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.libro {
+    width: 350px;
+    display: flex;
+    position: relative;
+}
+
+.ctn{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.libro .precio{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -20px;
+    padding: 5px;
+    top: -18px;
+    width: 50px;
+    height: 50px;    
+    background-color: rgb(249 157 153);
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+}
+.content-libro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-div {
+    height: 200px;
+    display: flex;
+}
+
+.descrip span{
+    color: gray;
+}
+.libro{
+    background-color: gainsboro;
+    border: 7px solid black;
+    border-radius: 30px;
+    padding: 13px;
+    position: relative;
+}
+
+.foot-libro{
+    display: flex;
+    justify-content: space-between;
+}

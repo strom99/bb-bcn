@@ -1,0 +1,31 @@
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+*, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: rgb(244, 118, 118);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+}
